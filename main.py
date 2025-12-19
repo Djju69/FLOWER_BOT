@@ -31,6 +31,7 @@ async def main() -> None:
 
     dp["db"] = db
     dp["settings"] = settings
+
     register_handlers(dp)
 
     try:
